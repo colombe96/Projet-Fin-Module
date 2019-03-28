@@ -1,0 +1,19 @@
+body
+{
+    background: url('../image/flat-lay-2583212__340.jpg');
+    background-size: cover;
+    color: brown;
+}
+button
+{
+    margin-right: 10px;
+    color: blue;
+    border-radius: 5px;
+}
+h1
+{
+    font-size: 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-weight: bold;
+}

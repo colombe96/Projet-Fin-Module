@@ -1,0 +1,15 @@
+body
+{
+    background: url('../image/business-3240767__340.jpg');
+    background-size: cover;
+    margin: 10%;
+
+}
+h1
+{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-weight: bold;
+    font-size: 5em; 
+}

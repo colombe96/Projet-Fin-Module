@@ -1,0 +1,14 @@
+body
+{
+    background: url('../image/breakfast-2151201__340.jpg') no-repeat;
+    background-size: 100%;
+    margin: 10%;
+}
+h2
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-weight: bold;
+    font-size: 5em; 
+}
+

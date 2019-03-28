@@ -1,0 +1,74 @@
+body
+{
+    background: blanchedalmond;
+}
+.carousel-inner img {
+     
+    width: 100% ; 
+    margin: auto;
+    padding: auto;
+    height: 5px;
+}
+  .thumbnail
+{
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+  .thumbnail p 
+  {
+    margin-top: 15px;
+    color: rgb(25, 26, 23);
+  }
+   
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  
+  h3, h4 {
+    margin: 20px 0 50px 0;
+    letter-spacing: 8px;      
+    font-size: 20px;
+    color: rgb(230, 103, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .p
+  {
+      display: block;
+      font-size: 10px;
+
+  }
+  footer {
+    background-color:rgb(74, 74, 236);
+    color: #f5f5f5;
+    padding: auto  !important;
+    margin: auto;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+  .form-control {
+    border-radius: 0;
+  }

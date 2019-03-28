@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style2.css">
+	 <!-- jQuery en premier, puis Popper.js et enfin Bootstrap JS -->
+        <script src="/js/jquery-3.3.1.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+       
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="hearder text-center">
+        <section id="main-image">
+            <div class="wrapper">
+              <h1>Notre <strong>menu</strong></h1>
+            </div>
+          </section>
+    </div>
+  </div>
+   
+  <div id="tour" class="bg-1">
+      <div class="container">
+       <% for(categorie of categories){ %>
+        <h1 class="text-center"><%= categorie.nom %></h1>
+        <div class="row">
+         <% for(plat of plats){ %> 
+            <% if(plat.id_cat === categorie.id){ %> 
+              <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="/image/<%= plat.image %>"  alt="" width="400" height="300">
+                    <p class="text-center"><strong><%= plat.nom %></strong></p>
+                    <a href="/index5/plat/<%= plat.id %>"  class="btn btn-primary">Commander</a>
+                </div>
+             </div>
+            <% } %>
+         <% }  %>
+        </div>
+      <% } %>
+    </div>
+  </div>
+  <footer class="container-fluid text-center">
+    <p>Online Store Copyright</p>  
+  </footer>
+  
+
+</body>
+</html>
